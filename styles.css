@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap');
+html,
+body {
+    background-color: #d4d4d4;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    padding: 1em;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #991A7D;
+}
+
+form {
+    max-width: 100%;
+    margin-left: 400px;
+    display: block;
+}
+
+label {
+    padding-top: 2%;
+}
+
+input,
+textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    font-family: 'Prompt', sans-serif;
+    box-shadow: (0 1px 1px rgba(black, 0.1));
+}
+
+input,
+textarea:hover {
+    background-color: #FFFFFF;
+    border-color: #c5da00;
+}
+
+#input-submit {
+    color: #FFFFFF;
+    background: #c5da00;
+    cursor: pointer;
+    margin-left: 18em;
+    width: 100px;
+    z-index: 1;
+}
+
+
+/* button {
+    color: #FFFFFF;
+    background: #c5da00;
+    margin-left: 18em;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+} */
+
+.half {
+    float: left;
+    width: 48%;
+    margin-top: 1em;
+}
+
+.right {
+    width: 50%;
+}
+
+.left {
+    margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+    .half {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+    }
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.h3,
+h3 {
+    font-size: 16px;
+    display: block;
+}
+
+.btn {
+    color: #000;
+    background-color: #FFFFFF;
+    border-color: #000;
+    border-radius: inherit;
+    border: none;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #c5da00;
+    border-color: #FFFFFF;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #991A7D;
+    border-color: #000;
+}
+
+.btn-group>.btn-group:not(:first-child),
+.btn-group>.btn:not(:first-child) {
+    margin-left: 8px;
+}
